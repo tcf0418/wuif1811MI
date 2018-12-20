@@ -1,0 +1,100 @@
+/* 头部开始 */
+.head{
+	width:100%;
+	height:40px;
+	background:#333;
+}
+.head-con{
+	width:1226px;
+	height:100%;
+	margin: 0px auto;
+}
+.head-left{
+	height: 100%;
+	float: left;
+}
+.head-left .text{
+	float:left;
+	color: #85a4a4;
+	height:100%;
+	line-height: 40px;
+	text-align: center;
+}
+.head-left .line{
+	float:left;
+	color: #85a4a4;
+	height:100%;
+	line-height: 40px;
+	text-align: center;
+	margin: 0px 7px;
+}
+.head-right{
+	float:right;
+	height: 100%;
+}
+.head-right .text{
+	float:left;
+	color: #85a4a4;
+	height:100%;
+	line-height: 40px;
+	text-align: center;
+}
+.head-right .line{
+	float:left;
+	color: #85a4a4;
+	height:100%;
+	line-height: 40px;
+	text-align: center;
+	margin: 0px 7px;
+}
+.gcar{
+	width: 100px;
+	weight:40px;
+	background: #424242;
+	float: right;
+}
+.car-text{
+	color: #85a4a4;
+	height:100%;
+	line-height: 40px;
+	text-align: center;
+}
+/* 头部结束 */
+
+/* 导航开始 */
+nav{
+	width:1226px;
+	height:100px;
+	margin: 0 auto;
+	
+}
+.nav-left{
+	float:left;
+	height:100%;
+	}
+.nav-left .logo{
+	width:40px;
+	height:40px;
+	background:#ff6700;
+	margin-top:30px;
+	float:left;
+}
+.nav-list-box{
+	height:100%;
+	float:left;
+}
+.nav-list-box li{
+	float:left;
+	text-align: center;
+	line-height: 100px;
+	margin: 0 10px;
+}
+.nav-right{
+	float:right;
+	width:200px;
+	height:100%;
+	background: #000;
+	float: right;
+}
+
+/*导航结束
