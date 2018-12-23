@@ -2,104 +2,405 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="./css/base.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="shortcut icon" href="./img/小米icon.ico">
 		<title>小米商城</title>
 	</head>
 	<body>
-		<!-- 头部开始 -->
+		<!-- head开始 -->
 		<div class="head">
 			<div class="head-con">
 				<div class="head-left">
 					<a href="">
 						<div class="text">小米商城</div>
+						<div class="line">|</div>
 					</a>
-					<div class="line">|</div>
-					<div class="text">MIUI</div>
-					<div class="line">|</div>
-					<div class="text">loT</div>
-					<div class="line">|</div>
-					<div class="text">云服务</div>
-					<div class="line">|</div>
-					<div class="text">金融</div>
-					<div class="line">|</div>
-					<div class="text">有品</div>
-					<div class="line">|</div>
-					<div class="text">小爱开放平台</div>
-					<div class="line"></div>
-					<div class="text">政企服务</div>
-					<div class="line"></div>
-					<div class="text">资质证照</div>
-					<div class="line"></div>
-					<div class="text">规则协议</div>
-					<div class="line"></div>
-					<div class="text">下载app</div>
-					<div class="line"></div>
-					<div class="text">Select Ragion</div>
-					<div class="line"></div>
+					<a href="">
+						<div class="text">MIUI</div>
+						<div class="line">|</div>
+					</a>
+					<a href="">
+						<div class="text">loT</div>
+						<div class="line">|</div>
+					</a>
+					<a href="">
+						<div class="text">云服务</div>
+						<div class="line">|</div>
+					</a>
+					<a href="">
+						<div class="text">金融</div>
+						<div class="line">|</div>
+					</a>
+					<a href="">
+						<div class="text">有品</div>
+						<div class="line">|</div>
+					</a>
+					<a href="">
+						<div class="text">小爱开放平台</div>
+						<div class="line">|</div>
+					</a>
+					<a href="">
+						<div class="text">政企服务</div>
+						<div class="line">|</div>
+					</a>
+					<a href="">
+						<div class="text">下载app</div>
+						<div class="line">|</div>
+					</a>
+					<a href="">
+						<div class="text">Select Region</div>
+					</a>
 				</div>
 				<div class="head-right">
 					<a href="">
-						<div class="text">登陆</div>
+					    <div class="head-car">
+							<i class="iconfont">&#xe606;</i>  购物车(0)</div>
+						<div class="text-box">
+							<div class="text">消息通知</div>
+							<div class="line">|</div>
+							<div class="text">注册</div>
+							<div class="line">|</div>
+							<div class="text">登录</div>
+						</div>
 					</a>
-					<div class="line">|</div>
-					<a href="">
-						<div class="text">注册</div>
-					</a>
-					<div class="line">|</div>
-					<a href="">
-						<div class="text">消息通知</div>
-					</a>
-					<div class="gcar">
-						<div class="car-text"><i class="iconfont">&#xe63f</i> 购物车</div>
-					</div>
 				</div>
-			</div>
-		</div>
-		<!-- 头部结束 -->
 
+			</div>
+		</div>		
+		<!-- head结束 -->
 		<!-- 导航开始 -->
-		<nav>
-			<div class="nav-left">
-				<div class="logo">
-					<img src="img/xiaomi-logo.png" alt="">
-				</div>		
-				<ul class="nav-list-box">
-					<li>小米手机</li>
-					<li>红米</li>
-					<li>电视</li>
-					<li>笔记本</li>
-					<li>家电</li>
-					<li>新品</li>
-					<li>路由器</li>
-					<li>智能硬件</li>
-					<li>服务</li>
-					<li>社区</li>
-				</ul>
-				<div class="head-right"
-				   <a href=""> 
-				   <div class="sousuo"></div>
-				   
-							 
-				
-		    </div>
-			<div class="nav-right"></div>
-			
-			<div class="two">
-				
-				<div><img src=""></div>
-				
-				<div class="daohang"></div>
-				
-				<div class="sousuo"></div>
-				
+		<nav class="daohang">
+			<div class="logo">
+				<img src="img/mi-logo.png" alt="">
+			</div>
+			<div class="daohang-con">
+				<div class="daohang1">小米手机</div>
+				<div class="daohang1">红米</div>
+				<div class="daohang1">电视</div>
+				<div class="daohang1">笔记本</div>
+				<div class="daohang1">家电</div>
+				<div class="daohang1">新品</div>
+				<div class="daohang1">路由器</div>
+				<div class="daohang1">智能硬件</div>
+				<div class="daohang1">服务</div>
+				<div class="daohang1">社区</div>
+			</div>
+			<div class="sousuo">
+				<input type="text">  
+				<div class="sousuo-right">
+					<i class="iconfont">&#xe615;</i>
+				</div>
+        <div class="sousuo-tishi">
+					<span>小米8</span>
+					<span class="tishi1">小米MIX 2S</span>
+					<span>故宫K歌耳机</span>
+				</div>
+
 			</div>
 		</nav>
 		<!-- 导航结束 -->
+		<!-- banner开始 -->
+		<section class="banner">
+			<div class="banner-img-box">
+				<ul>
+					<li><img src="img/banner1.jpg" alt=""></li>
+					<li><img src="img/banner2.jpg" alt=""></li>
+					<li><img src="img/banner3.jpg" alt=""></li>
+					<li><img src="img/banner4.jpg" alt=""></li>
+					<li><img src="img/banner5.jpg" alt=""></li>
+				</ul>
+			</div>
+			<div class="banner-list-box">
+				<ul>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+					<li>
+						<div class="left">手机 电话卡</div>
+						<div class="right"><i class="iconfont">&#xe653;</i></div>
+					</li>
+				</ul>
+			</div>
+			<div class="banner-point-box">
+				<div>
+					<div class="active"></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<div class="banner-move-btn banner-move-btn1"></div>
+			<div class="banner-move-btn banner-move-btn2"></div>
+
+		</section>
+		<!-- banner结束 -->
+    <!-- 小米闪购开始 -->
+		<div class="shangou">
+			<div class="shangou-top">
+				<div class="shangou-top-zuo">小米闪购</div>
+				<div class="shangou-move-btn">
+					<div class="btn-left"><i class="iconfont">&#xe652;</i></div>
+					<div class="btn-right"><i class="iconfont">&#xe653;</i></div>
+				</div>
+			</div>
+			<div class="shangou-bottom">
+				<div class="shangou-bottom-left">
+					<p class="ershidian">20:00 场</p>
+					<p class="shandian">
+						<img src="img/flashpurchase.png" alt="">
+					</p>
+					<p>距离结束还有</p>
+					<div class="daojishi">
+						<div class="daojishi1">00</div>
+						<div class="daojishi-1">:</div>
+						<div class="daojishi1">00</div>
+						<div class="daojishi-1">:</div>
+						<div class="daojishi1">00</div>
+					</div>
+				</div>
+				<ul>
+					<li class="item1">
+						<div class="miaosha">1元秒杀</div>
+						<img src="./img/pms_1537356460.6227958!220x220.png" alt="">
+						<p class="item1-one">最生活毛巾·Air(10条装)白色</p>
+						<p class="item1-two" class="item1-one">超值家庭装 轻柔速干</p>
+						<p class="item1-price">69 元<s> 169元</s></p>
+					</li>
+					<li class="shangou-bottom-right2">
+						<div class="miaosha">1元秒杀</div>
+						<img src="./img/pms_1537356460.6227958!220x220.png" alt="">
+						<p class="item1-one">最生活毛巾·Air(10条装)白色</p>
+						<p class="item1-two" class="item1-one">超值家庭装 轻柔速干</p>
+						<p class="item1-price">69 元<s> 169元</s></p>
+					</li>
+					<li class="shangou-bottom-right3">
+						<div class="miaosha">1元秒杀</div>
+						<img src="./img/pms_1537356460.6227958!220x220.png" alt="">
+						<p class="item1-one">最生活毛巾·Air(10条装)白色</p>
+						<p class="item1-two" class="item1-one">超值家庭装 轻柔速干</p>
+						<p class="item1-price">69 元<s> 169元</s></p>
+					</li>
+					<li class="shangou-bottom-right4">
+						<div class="miaosha">1元秒杀</div>
+						<img src="./img/pms_1537356460.6227958!220x220.png" alt="">
+						<p class="item1-one">最生活毛巾·Air(10条装)白色</p>
+						<p class="item1-two" class="item1-one">超值家庭装 轻柔速干</p>
+						<p class="item1-price">69 元<s> 169元</s></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 小米闪购结束 -->
+		<!-- 为你推荐开始 -->
+		<main>
+			<section class="recommend">
+				<div class="recommend-top">
+					<div class="recommend-top-zuo">为你推荐</div>
+					<div class="recommend-move-btn">
+						<div class="btn-left"><i class="iconfont">&#xe652;</i></div>
+						<div class="btn-right"><i class="iconfont">&#xe653;</i></div>
+					</div>
+				</div>
+				<div class="recommend-bottom">
+					<ul>
+						<li class="item1">
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li class="item1">
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li class="item1">
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+						<li>
+							<div class="img-box">
+								<img src="./img/pms_1504778935.57065093!140x140.jpg" alt="">
+							</div>
+							<p class="item1-one">米家运动鞋 男款</p>
+							<p class="item1-two" class="item1-one">99元</p>
+							<p class="item1-price">2万人好评</p>
+						</li>
+					</ul>	
+				</div>
+			</section>
+		<!-- 为你推荐结束 -->
+		<!-- 热评产品开始 -->
+			<section class="hot-products">
+				<div class="hot-products-top">热评产品</div>
+				<div class="hot-products-bottom">
+					<ul>
+						<li class="item">
+							<img src="img/reping2.jpg" alt="">
+							<p class="miaoshu">外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最重要的是性价比高。附图，给客服</p>
+							<p class="pingjia">来自酸小妞的评价</p>
+							<p class="name">米家车载空气净化器<em>|</em><i>389元</i></p>
+						</li>
+						<li>
+							<img src="img/reping2.jpg" alt="">
+							<p class="miaoshu">外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最重要的是性价比高。附图，给客服</p>
+							<p class="pingjia">来自酸小妞的评价</p>
+							<p class="name">米家车载空气净化器<em>|</em><i>389元</i></p>
+						</li>
+						<li>
+							<img src="img/reping2.jpg" alt="">
+							<p class="miaoshu">外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最重要的是性价比高。附图，给客服</p>
+							<p class="pingjia">来自酸小妞的评价</p>
+							<p class="name">米家车载空气净化器<em>|</em><i>389元</i></p>
+						</li>
+						<li>
+							<img src="img/reping2.jpg" alt="">
+							<p class="miaoshu">外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最重要的是性价比高。附图，给客服</p>
+							<p class="pingjia">来自酸小妞的评价</p>
+							<p class="name">米家车载空气净化器<em>|</em><i>389元</i></p>
+						</li>
+					</ul>
+				</div>
+
+			</section>
+		<!-- 热评产品结束 -->
 		
-
-
-
+		
+		
+		
+    </main>	
 
 
 	</body>
