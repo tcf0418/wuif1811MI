@@ -1,24 +1,32 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family:"微软雅黑","苹方";
+	font-family: "苹方","微软雅黑";
 	font-style: normal;
 	font-weight: normal;
 }
-ul,li{
-	list-style: none;
+@font-face {
+  font-family: 'iconfont';  /* project id 974143 */
+  src: url('//at.alicdn.com/t/font_974143_sob4g1zmgbi.eot');
+  src: url('//at.alicdn.com/t/font_974143_sob4g1zmgbi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_974143_sob4g1zmgbi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_974143_sob4g1zmgbi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_974143_sob4g1zmgbi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: iconfont;
 }
 a{
 	text-decoration: none;
 }
-@font-face {
-  font-family: 'iconfont';  /* project id 974174 */
-  src: url('//at.alicdn.com/t/font_974174_9kx6b62fp5f.eot');
-  src: url('//at.alicdn.com/t/font_974174_9kx6b62fp5f.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_974174_9kx6b62fp5f.woff') format('woff'),
-  url('//at.alicdn.com/t/font_974174_9kx6b62fp5f.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_974174_9kx6b62fp5f.svg#iconfont') format('svg');
+.clear::after{			//伪元素选择器
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
 }
-.iconfont{
-	font-family: "iconfont";
+ul,li{
+	list-style: none;
 }
+
