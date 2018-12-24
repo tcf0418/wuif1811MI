@@ -10,6 +10,7 @@
 	margin: 0 auto;
 }
 .cont-left{
+	width:800px;
 	height: 100%;
 	float: left;
 }
@@ -820,7 +821,7 @@ main{
 	transform:translate(0,-2px);
 	box-shadow:0 5px 30px 2px rgba(0,0,0,0.1);
 }
-.jiadian-bottom .right>ul>li:hover .yc-list{
+/* .jiadian-bottom .right>ul>li:hover .yc-list{
 	transform:translate(0,-75px);
 }
 .jiadian-bottom .right>ul>li .yc-list{
@@ -829,7 +830,7 @@ main{
 	background:#ff6700;
 	margin-top: 26px;
 	transition: all 0.5s;
-}
+} */
 .jiadian-bottom .right>ul>li .yc-list span{
 	color:white;
 	font-size: 12px; 
@@ -1061,7 +1062,7 @@ main{
 	transform:translate(0,-2px);
 	box-shadow:0 5px 30px 2px rgba(0,0,0,0.1);
 }
-.zhineng-bottom .right>ul>li:hover .yc-list{
+/* .zhineng-bottom .right>ul>li:hover .yc-list{
 	transform:translate(0,-75px);
 }
 .zhineng-bottom .right>ul>li .yc-list{
@@ -1070,7 +1071,7 @@ main{
 	background:#ff6700;
 	margin-top: 26px;
 	transition: all 0.5s;
-}
+} */
 .zhineng-bottom .right>ul>li .yc-list span{
 	color:white;
 	font-size: 12px; 
@@ -1229,7 +1230,7 @@ main{
 	transform:translate(0,-2px);
 	box-shadow:0 5px 30px 2px rgba(0,0,0,0.1);
 }
-.dapei-bottom .right>ul>li:hover .yc-list{
+/* .dapei-bottom .right>ul>li:hover .yc-list{
 	transform:translate(0,-75px);
 }
 .dapei-bottom .right>ul>li .yc-list{
@@ -1238,7 +1239,7 @@ main{
 	background:#ff6700;
 	margin-top: 26px;
 	transition: all 0.5s;
-}
+} */
 .dapei-bottom .right>ul>li .yc-list span{
 	color:white;
 	font-size: 12px; 
@@ -1394,7 +1395,7 @@ main{
 	transform:translate(0,-2px);
 	box-shadow:0 5px 30px 2px rgba(0,0,0,0.1);
 }
-.peijian-bottom .right>ul>li:hover .yc-list{
+/* .peijian-bottom .right>ul>li:hover .yc-list{
 	transform:translate(0,-75px);
 }
 .peijian-bottom .right>ul>li .yc-list{
@@ -1403,7 +1404,7 @@ main{
 	background:#ff6700;
 	margin-top: 26px;
 	transition: all 0.5s;
-}
+} */
 .peijian-bottom .right>ul>li .yc-list span{
 	color:white;
 	font-size: 12px; 
@@ -1557,7 +1558,7 @@ main{
 	transform:translate(0,-2px);
 	box-shadow:0 5px 30px 2px rgba(0,0,0,0.1);
 }
-.zhoubian-bottom .right>ul>li:hover .yc-list{
+/* .zhoubian-bottom .right>ul>li:hover .yc-list{
 	transform:translate(0,-75px);
 }
 .zhoubian-bottom .right>ul>li .yc-list{
@@ -1566,7 +1567,7 @@ main{
 	background:#ff6700;
 	margin-top: 26px;
 	transition: all 0.5s;
-}
+} */
 .zhoubian-bottom .right>ul>li .yc-list span{
 	color:white;
 	font-size: 12px; 
