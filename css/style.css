@@ -4,16 +4,16 @@
 	height: 40px;
 	background: #333;
 }
-.on{
+.cont{
 	width: 1226px;
 	height: 100%;
 	margin: 0 auto;
 }
-.on-left{
+.cont-left{
 	height: 100%;
 	float: left;
 }
-.left-text{
+.cont-text{
 	height: 12px;
 	float: left;
 	text-align: center;
@@ -33,7 +33,7 @@
 	font-size: 12px;
 	color:rgba(0,0,0,0.5);
 }
-.on-right{
+.cont-right{
 	height: 100%;
 	float: right;
 }
@@ -189,15 +189,15 @@
 	color:white ;
 }
 /* 导航结束 */
-/* 轮翻开始 */
-.lunfan{
+/* 轮播开始 */
+.lunbo{
 	width: 1226px;
 	height: 460px;
 	background: red;
 	margin: 0 auto;
 	position: relative;
 }
-.lunfan-box{
+.lunbo-box{
 	width: 1226px;
 	height: 460px;
 	background: yellow;
@@ -205,25 +205,25 @@
 	position: absolute;
 	
 }
-.lunfan-img-box{
+.lunbo-img-box{
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	left: 0;
 	top: 0;
 }
-.lunfan-img-box>ul>li{
+.lunbo-img-box>ul>li{
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	left: 0;
 	top:0;
 }
-.lunfan-img-box>ul>li>img{
+.lunbo-img-box>ul>li>img{
 	width:100%;
 	height: 100%;
 }
-.lunfan-list-box{
+.lunbo-list-box{
 	width: 234px;
 	height: 460px;
 	background:rgba(0,0,0,0.7);
@@ -231,47 +231,47 @@
 	left: 0;
 	top: 0;
 }
-.lunfan-list-box>ul{
+.lunbo-list-box>ul{
 	width: 100%;
 	height: 100%;
 	padding: 20px 0;
 	box-sizing: border-box;
 }
-.lunfan-list-box>ul>li{
+.lunbo-list-box>ul>li{
 	width: 100%;
 	height: 42px;
 	color: white;
 	cursor: pointer;
 }
-.lunfan-list-box>ul>li:hover{
+.lunbo-list-box>ul>li:hover{
 	background: orange;
 }
-.lunfan-list-box .left{
+.lunbo-list-box .left{
 	height: 100%;
 	line-height: 42px;
 	float: left;
 	margin-left: 30px;
 	font-size: 14px;
 }
-.lunfan-list-box .right{
+.lunbo-list-box .right{
 	height: 100%;
 	line-height: 42px;
 	float: right;
 	margin-right: 22px;
 	font-size: 14px;
 }
-.lunfan-dian-box{
+.lunbo-dian-box{
 	width: 200px;
 	height: 10px;
 	position: absolute;
 	right: 0;
 	bottom: 30px;
 }
-.lunfan-dian-box>div{
+.lunbo-dian-box>div{
 	float: right;
 	margin-right: 20px;
 }
-.lunfan-dian-box>div>div{
+.lunbo-dian-box>div>div{
 	width:10px;
 	height: 10px;
 	background: rgba(0,0,0,0.5);
@@ -282,11 +282,11 @@
 	box-sizing: border-box;
 	cursor: pointer;
 }
-.lunfan-dian-box>div>.hd{
+.lunbo-dian-box>div>.hd{
 	background: rgba(0,0,0,0.2);
 	border: 2px solid rgba(0,0,0,0.3);
 }
-.lunfan-zuojiantou-box{
+.lunbo-zuojiantou-box{
 	width: 41px;
 	height: 69px;
 	position: absolute;
@@ -300,11 +300,11 @@
 	cursor: pointer;
 	background-position:-82px 0;
 }
-.lunfan-zuojiantou-box:hover {
+.lunbo-zuojiantou-box:hover {
 	background-image: url(../img/icon-jiantou.png); 
 	background-position:0px 0;
 }
-.lunfan-youjiantou-box{
+.lunbo-youjiantou-box{
 	width: 41px;
 	height: 69px;
 	position: absolute;
@@ -312,51 +312,51 @@
 	top: 0;
 	margin: auto;
 	right: 0;
-	border-top-left-radius:5px;								/* //左上角变圆角 */
-	border-bottom-left-radius:5px;							/* //左下角变圆角 */
-	background-image: url(../img/icon-jiantou.png);			/* //精灵图 用四个中的第三个 需要设置值 */
-	background-position:-128px 0;							/* 	背景图片居中 */
-	background-repeat: no-repeat;							/* 背景图片不重复 */
+	border-top-left-radius:5px;								
+	border-bottom-left-radius:5px;							
+	background-image: url(../img/icon-jiantou.png);			
+	background-position:-128px 0;							
+	background-repeat: no-repeat;							
 }
-.lunfan-youjiantou-box:hover {
+.lunbo-youjiantou-box:hover {
 	background-image: url(../img/icon-jiantou.png); 
 	background-position:-42px 0;
 }
-/* 轮翻结束 */
+/* 轮播结束 */
 /* 四个图开始 */
-.F{
+.S{
 	width: 1226px;
 	height: 170px;
 	margin: 0 auto;
 	margin-top: 15px;
 	margin-bottom: 40px;
 }
-.F-left{
+.S-left{
 	width: 234px;
 	height: 170px;
 	background: rgba(0,0,0,0.8);
 	float: left;
 }
-.F-left>ul>li{
+.S-left>ul>li{
 	width: 78px;
 	height: 85px;
 	float: left;
 	position: relative;
 }
-.F-left>ul>li .f11{
+.S-left>ul>li .s11{
 	text-align: center;
 	margin-top:20px ;
 	font-size: 30px;
 	line-height: 30px;
 	color: rgba(255,255,255,0.7);
 }
-.F-left>ul>li:hover .f11{
+.S-left>ul>li:hover .s11{
 	color: white;
 }
-.F-left>ul>li:hover span{
+.S-left>ul>li:hover span{
 	color: white;
 }
-.F-left>ul>li span{
+.S-left>ul>li span{
 	font-size: 12px;
 	color: rgba(255,255,255,0.7);
 	margin: 0 15px;
@@ -407,28 +407,28 @@
 	left: 6px;
 	bottom: 0;
 }
-.F-right li{
+.S-right li{
 	width: 316px;
 	height: 170px;
 	float: left;
 	background: blue;
 	margin-left: 14.6666px;
 }
-.F-right .f1 img{
+.S-right .s1 img{
 	width: 316px;
 	height: 170px;
 	cursor: pointer;
 	transition: all 0.5s;
 }
-.F-right li:hover{
+.S-right li:hover{
 	box-shadow:0 5px 20px 2px rgba(0,0,0,0.1);
 }
-.F-right .f2 img{
+.S-right .s2 img{
 	width: 316px;
 	height: 170px;
 	cursor: pointer;
 }
-.F-right .f3 img{
+.S-right .s3 img{
 	width: 316px;
 	height: 170px;
 	cursor: pointer;
@@ -548,7 +548,7 @@
 	margin: 0 85px;
 	color: white;
 }
-.sh{
+.ys{
 	width: 137.67px;
 	height: 16px;
 	font-size: 14px;
@@ -560,23 +560,23 @@
 	height: 166px;
 	margin: 0px 37px 0px 37px;
 }
-.shangou-bottom-right li .desc{
+.shangou-bottom-right li .yd{
 	margin-top: 10px;
 	font-size: 12px;
 	color: rgba(0,0,0,0.5);
 	text-align: center;
 }
-.shangou-bottom-right li .jiaqian{
+.shangou-bottom-right li .jiage{
 	margin-top: 15px;
 	font-size: 14px;
 	text-align: center;
 	margin-top: 10px;
 }
-.shangou-bottom-right li .jiaqian span{
+.shangou-bottom-right li .jiage span{
 	color:#ff6700;
 	margin-right: 2px;
 }
-.shangou-bottom-right li .jiaqian del{
+.shangou-bottom-right li .jiage del{
 	color:#b0b0b0;
 }
 .shangou-bottom-right .li2{
@@ -673,7 +673,7 @@ main{
 	height: 150px;
 	margin: 34px 42px 18px 42px;
 }
-.shouji-bottom .right .xinxi{
+.shouji-bottom .right .shuxing{
 	font-size: 14px;
 	color: #000;
 	text-align: center;
@@ -683,16 +683,16 @@ main{
 	color: rgba(0,0,0,0.5);
 	text-align: center;
 }
-.shouji-bottom .right .jiaqian{
+.shouji-bottom .right .jiage{
 	font-size: 14px;
 	text-align: center;
 	margin-top: 10px;
 }
-.shouji-bottom .right .jiaqian span{
+.shouji-bottom .right .jiage span{
 	color:#ff6700;
 	margin-right: 2px;
 }
-.shouji-bottom .right .jiaqian del{
+.shouji-bottom .right .jiage del{
 	color:#b0b0b0;
 }
 .jiang{
@@ -900,12 +900,12 @@ main{
 	right: 0;
 	margin: 0 auto;
 }
-.ba{
+.cn{
 	width: 234px;
 	height: 300px;
 	float: right;
 }
-.ba .ba-top{
+.cn .ba-top{
 	width: 234px;
 	height: 143px;
 	background:white;
@@ -913,18 +913,18 @@ main{
 	position: relative;
 	transition: all 0.5s;
 }
-.ba .ba-top:hover{
+.cn .cn-top:hover{
 	transform:translate(0,-2px);
 	box-shadow:0 5px 30px 2px rgba(0,0,0,0.1);
 }
-.ba .ba-top img{
+.cn .cn-top img{
 	width: 80px;
 	height: 80px;
 	position: absolute;
 	top: 30px;
 	right: 20px;
 }
-.ba .ba-top span{
+.cn .cn-top span{
 	width: 94px;
 	height: 21px;
 	margin: 0px 0 0 20px;
@@ -936,7 +936,7 @@ main{
 	margin-top: 40px;
 	margin-left: 20px;
 }
-.ba .ba-top i{
+.cn .cn-top i{
 	margin-top: 5px;
 	width: 214px;
 	height: 21px;
@@ -945,21 +945,21 @@ main{
 	font-size: 12px;
     color: #ff6700;
 }
-.ba .ba-bottom{
+.cn .cn-bottom{
 	width: 234px;
 	height: 143px;
 	background: white;
 	transition: all 0.5s;
 	position: relative;
 }
-.ba .ba-bottom .ic{
+.cn .cn-bottom .ic{
 	font-size: 48px;
 	color: #ff6700;
 	position: absolute;
 	top: 40px;
 	right: 35px;
 }
-.ba .ba-bottom span{
+.cn .cn-bottom span{
 	width: 80px;
 	height: 45px;
 	margin: 0px 0 0 20px;
@@ -969,11 +969,11 @@ main{
 	margin-left: 20px;
 	color: #000000;
 }
-.ba .ba-bottom span i{
+.cn .cn-bottom span i{
 	font-size: 12px;
 	color:rgba(0,0,0,0.8) ;
 }
-.ba .ba-bottom:hover{
+.cn.cn-bottom:hover{
 	transform:translate(0,-2px);
 	box-shadow:0 5px 30px 2px rgba(0,0,0,0.1);
 }
